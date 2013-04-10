@@ -6,28 +6,28 @@
 // Start
 
 // Initial Variables
-var resort_name = "Sierra";
+var resortName = "Sierra";
 var sierra = 'Sierra\'s runs are still epic!';
-var snow_inches = 10;
-var new_snow = true;
+var snowInches = 10;
+var newSnow = true;
 
 // Initial Output 
-console.log("We are going to ski at " + resort_name + " if there is no snow.");
+console.log("We are going to ski at " + resortName + " if there is no snow.");
 console.log("Regardless if it snows or not " + sierra);
-console.log("It snowed " + snow_inches + " inches last night");
-console.log("It is " + new_snow + " there is new snow");
+console.log("It snowed over " + snowInches + " inches last night.");
+console.log("It is " + newSnow + " there is new snow.");
 
 // Conditionals
-if (new_snow === true) {
-        if (snow_inches >= 10) {
-                snow_inches = snow_inches + 5;
-                console.log("Awesome! We received " + snow_inches + " inches of new snow, Kirkwood it is.");
+if (newSnow === true) {
+        if (snowInches >= 10) {
+                snowInches = snowInches + 5;
+                console.log("Awesome! We received " + snowInches + " inches of new snow we are going to Kirkwood.");
         } else {
-                console.log("We only got " + snow_inches + " inches of  new snow, let's head to Sierra.");
+                console.log("We only got " + snowInches + " inches of  new snow, let's head to Sierra.");
         };
 } else {
-        if (resort_name === "s") {
-                console.log("No new snow time to hit up " + resort_name + " for the day.");
+        if (resortName === "s") {
+                console.log("No new snow time to hit up " + resortName + " for the day.");
         } else {
                 console.log("It's all good " + sierra);
         };
