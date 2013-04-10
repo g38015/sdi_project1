@@ -8,7 +8,7 @@
 // Initial Variables
 var resort_name = "Sierra";
 var sierra = 'Sierra\'s runs are still epic!';
-var snow_inches = 8 + 2;
+var snow_inches = 10;
 var new_snow = true;
 
 // Initial Output 
@@ -20,6 +20,7 @@ console.log("It is " + new_snow + " there is new snow");
 // Conditionals
 if (new_snow === true) {
         if (snow_inches >= 10) {
+                snow_inches = snow_inches + 5;
                 console.log("Awesome! We received " + snow_inches + " inches of new snow, Kirkwood it is.");
         } else {
                 console.log("We only got " + snow_inches + " inches of  new snow, let's head to Sierra.");
